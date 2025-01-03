@@ -10,7 +10,7 @@ const outputField = document.getElementById("outputField");
 
 function fun1() {
   outputField.innerHTML =
-    "Thank you for providing your home Adress:" +
+    "Thank you for providing your home Address:" +
     "<br><br>" +
     strtNum.value +
     " " +
