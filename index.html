@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#" id="container">
+      <h3>Submit Your home Address</h3>
+
+      <label for="strt"></label>
+      <input type="text" id="strt" name="strt" placeholder="Street name" />
+
+      <label for="strtNum"></label>
+      <input type="number" id="strtNum" placeholder="number" required /><br />
+      <br />
+
+      <label for="pstlCode"></label>
+      <input type="number" id="pstlCode" placeholder="Postal code" />
+
+      <label for="city"></label>
+      <input type="text" id="city" placeholder="City" />
+
+      <br />
+      <br />
+
+      <label for="state"></label>
+      <input type="text" id="state" placeholder="State" />
+
+      <label for="country"></label>
+      <input type="text" id="country" placeholder="Country" />
+
+      <br /><br />
+      <button type="submit" onclick="fun1()">submit</button>
+      <span></span>
+      <button type="reset" onclick="fun2()">Reset</button>
+      <br />
+
+      <h1 id="outputField"></h1>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

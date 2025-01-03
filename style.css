@@ -1,0 +1,15 @@
+#container {
+  width: 80%;
+
+  margin-left: 12rem;
+
+  align-items: center;
+  /* background: beige; */
+}
+
+#outputField {
+  /* border: 2px solid black; */
+  height: 50rem;
+  width: 30rem;
+  align-items: center;
+}
