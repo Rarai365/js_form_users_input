@@ -29,3 +29,8 @@ function fun1() {
 function fun2() {
   document.getElementById("container").reset();
 }
+
+const form = document.getElementById("container");
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
