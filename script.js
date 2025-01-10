@@ -22,13 +22,16 @@ function fun1() {
     ", " +
     state.value +
     ", " +
-    country.value;
+    country.value +
+    ".";
 }
 
 // // btn2.onclick = () => document.getElementById("container").requestFullscreen();
 function fun2() {
   document.getElementById("container").reset();
 }
+
+//preventing form to submit the data
 
 const form = document.getElementById("container");
 form.addEventListener("submit", (e) => {

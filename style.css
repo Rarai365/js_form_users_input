@@ -1,15 +1,23 @@
 #container {
-  width: 80%;
-
-  margin-left: 12rem;
-
-  align-items: center;
-  /* background: beige; */
+  padding: 24px;
 }
 
 #outputField {
   /* border: 2px solid black; */
   height: 50rem;
-  width: 30rem;
+  width: 50rem;
   align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
 }
